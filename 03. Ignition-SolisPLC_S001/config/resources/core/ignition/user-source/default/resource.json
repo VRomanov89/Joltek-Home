@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "description": "This user source profile was automatically created during a startup",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json",
+    "users.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "system-init",
+      "timestamp": "2025-10-21T16:54:19Z"
+    },
+    "uuid": "be8a5841-e9b5-4d83-b64c-2a28c08e3999",
+    "lastModificationSignature": "6f35bc49b8bfa76c1c0e4cbe7d22950f9e5043ef1385ff2b54048909165869b4"
+  }
+}

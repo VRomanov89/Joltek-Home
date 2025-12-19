@@ -1,0 +1,66 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002][Diagnostics]/Device/DeviceType",
+    "dataType": "Int4",
+    "name": "DeviceType",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002][Diagnostics]/Device/Status",
+    "dataType": "Int4",
+    "name": "Status",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002][Diagnostics]/Device/VendorId",
+    "dataType": "Int4",
+    "name": "VendorId",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002][Diagnostics]/Device/ProductName",
+    "dataType": "String",
+    "name": "ProductName",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002][Diagnostics]/Device/ProductCode",
+    "dataType": "Int4",
+    "name": "ProductCode",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002][Diagnostics]/Device/MajorRevision",
+    "dataType": "Int4",
+    "name": "MajorRevision",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002][Diagnostics]/Device/MinorRevision",
+    "dataType": "Int4",
+    "name": "MinorRevision",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002][Diagnostics]/Device/SerialNumber",
+    "dataType": "Int8",
+    "name": "SerialNumber",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

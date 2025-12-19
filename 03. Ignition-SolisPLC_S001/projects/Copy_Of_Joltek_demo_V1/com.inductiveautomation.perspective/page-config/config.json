@@ -1,0 +1,61 @@
+{
+  "pages": {
+    "/": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "Footer/Footer - Home"
+          }
+        ],
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "Left Nav Bar/Left Nav Bar - Home"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Main Screen/Home Page"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom",
+    "top": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 150,
+        "viewParams": {},
+        "viewPath": "Top Bar/Top Bar - Home"
+      }
+    ]
+  }
+}

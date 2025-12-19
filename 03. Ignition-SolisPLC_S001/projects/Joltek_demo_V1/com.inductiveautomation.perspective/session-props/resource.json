@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "props.json"
+  ],
+  "attributes": {
+    "lastModificationSignature": "e1bdd3cd34f057ec9a6442af17ac073f9928bcc5f286b0444090d60e0acb5e0e",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-12-19T20:01:33Z"
+    }
+  }
+}

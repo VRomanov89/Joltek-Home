@@ -1,0 +1,26 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Line1.Filler.Running_B",
+    "dataType": "Boolean",
+    "name": "Running_B",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Line1.Filler.Faulted",
+    "dataType": "Int4",
+    "name": "Faulted",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Line1.Filler.Status",
+    "dataType": "Int2",
+    "name": "Status",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

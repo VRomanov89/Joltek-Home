@@ -1,0 +1,10 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Program:MainProgram.CurrentPos1",
+    "dataType": "Int4",
+    "name": "CurrentPos1",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]
