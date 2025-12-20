@@ -1,0 +1,146 @@
+{
+  "custom": {},
+  "params": {
+    "FillerStation1_Level": 50
+  },
+  "propConfig": {
+    "params.FillerStation1_Level": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 920,
+      "width": 1920
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 1416,
+          "y": 395.91
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_REAL/HMI_REAL_0_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_0"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 1332,
+          "y": 396.44875
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_REAL/HMI_REAL_1_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 128,
+          "x": 188,
+          "y": 198
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_0_.value"
+              },
+              "transforms": [
+                {
+                  "fallback": "Status - Unknown",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": "Filling"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Starved"
+                    },
+                    {
+                      "input": 3,
+                      "output": "Backed Up"
+                    },
+                    {
+                      "input": 4,
+                      "output": "Running"
+                    },
+                    {
+                      "input": 5,
+                      "output": "Stopped"
+                    },
+                    {
+                      "input": 6,
+                      "output": null
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 1920,
+          "y": 16
+        },
+        "props": {
+          "text": "Filler"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
