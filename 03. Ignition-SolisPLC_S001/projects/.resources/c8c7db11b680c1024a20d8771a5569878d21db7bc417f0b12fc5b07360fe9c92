@@ -1,0 +1,38 @@
+{
+  "custom": {},
+  "params": {
+    "FillerStation1_Level": "value"
+  },
+  "propConfig": {
+    "params.FillerStation1_Level": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 920,
+      "width": 1920
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 85,
+          "width": 46,
+          "x": 354,
+          "y": 380
+        },
+        "type": "ia.display.cylindrical-tank"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

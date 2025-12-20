@@ -1,0 +1,58 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]System_Date_Time[0]",
+    "dataType": "Int4",
+    "name": "System_Date_Time_0_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]System_Date_Time[5]",
+    "dataType": "Int4",
+    "name": "System_Date_Time_5_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]System_Date_Time[6]",
+    "dataType": "Int4",
+    "name": "System_Date_Time_6_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]System_Date_Time[2]",
+    "dataType": "Int4",
+    "name": "System_Date_Time_2_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]System_Date_Time[3]",
+    "dataType": "Int4",
+    "name": "System_Date_Time_3_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]System_Date_Time[4]",
+    "dataType": "Int4",
+    "name": "System_Date_Time_4_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]System_Date_Time[1]",
+    "dataType": "Int4",
+    "name": "System_Date_Time_1_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

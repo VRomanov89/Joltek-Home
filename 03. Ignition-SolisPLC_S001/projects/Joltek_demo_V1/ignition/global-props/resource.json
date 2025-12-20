@@ -1,0 +1,16 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModificationSignature": "53dd1c16705d9e09251ef39dbfea83b71a5751c04fc254bf5268befc8264554e",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-10-21T17:28:06Z"
+    }
+  }
+}

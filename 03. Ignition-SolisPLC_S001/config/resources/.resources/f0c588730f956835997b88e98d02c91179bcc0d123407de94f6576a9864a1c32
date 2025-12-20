@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "uuid": "9a816637-f6fe-436e-b8b9-159d36314624",
+      "username": "Joltek",
+      "schedule": "Always",
+      "password": "[1195a81c]04d852af1a7797b7ab2a6781ea95e665ca6150c4aa55d7ad0d1bdb59aeee8c6a",
+      "passwordDate": "20251021.125419082-0400",
+      "passwordHistory": [],
+      "createdDate": "20251021.125419082-0400",
+      "lastModifiedDate": "20251021.125419082-0400",
+      "roles": [
+        "1707c861-3862-449b-86b4-199688582d8c"
+      ],
+      "extraProps": [],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "1707c861-3862-449b-86b4-199688582d8c",
+      "rolename": "Administrator",
+      "createdDate": "20251021.125419082-0400",
+      "lastModifiedDate": "20251021.125419082-0400"
+    }
+  ]
+}

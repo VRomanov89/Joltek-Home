@@ -1,0 +1,18 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Test_Bool[1]",
+    "dataType": "Int4",
+    "name": "Test_Bool_1_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Test_Bool[0]",
+    "dataType": "Int4",
+    "name": "Test_Bool_0_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

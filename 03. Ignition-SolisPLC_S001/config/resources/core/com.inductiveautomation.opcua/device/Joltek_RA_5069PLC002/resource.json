@@ -1,0 +1,19 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-12-19T22:06:22Z"
+    },
+    "uuid": "aa402825-c179-4932-b734-eb89e1fab7f6",
+    "lastModificationSignature": "9256a055ab37fd32865fe43478c07a51ab3ddf8cc52568cae6cf6ad3154a2bc8",
+    "enabled": true
+  }
+}

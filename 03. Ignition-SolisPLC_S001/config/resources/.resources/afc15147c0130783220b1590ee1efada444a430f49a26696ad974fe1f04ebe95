@@ -1,0 +1,482 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.ThresholdExceeded",
+    "dataType": "Int4",
+    "name": "ThresholdExceeded",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad18",
+    "dataType": "Int1",
+    "name": "Pad18",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_4Connected",
+    "dataType": "Boolean",
+    "name": "PortFa1_4Connected",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_4Utilization",
+    "dataType": "Int1",
+    "name": "PortFa1_4Utilization",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad19",
+    "dataType": "Int1",
+    "name": "Pad19",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.MajorAlarmRelay",
+    "dataType": "Boolean",
+    "name": "MajorAlarmRelay",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad22",
+    "dataType": "Int1",
+    "name": "Pad22",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_3Connected",
+    "dataType": "Boolean",
+    "name": "PortFa1_3Connected",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_2UnauthorizedDevice",
+    "dataType": "Boolean",
+    "name": "PortFa1_2UnauthorizedDevice",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad20",
+    "dataType": "Int1",
+    "name": "Pad20",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.AllPortsUtilization",
+    "dataType": "Int1",
+    "name": "AllPortsUtilization",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_6Connected",
+    "dataType": "Boolean",
+    "name": "PortFa1_6Connected",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Fault",
+    "dataType": "Int4",
+    "name": "Fault",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_6UnauthorizedDevice",
+    "dataType": "Boolean",
+    "name": "PortFa1_6UnauthorizedDevice",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad17",
+    "dataType": "Int1",
+    "name": "Pad17",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad5",
+    "dataType": "Int1",
+    "name": "Pad5",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad7",
+    "dataType": "Int1",
+    "name": "Pad7",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_1UnauthorizedDevice",
+    "dataType": "Boolean",
+    "name": "PortFa1_1UnauthorizedDevice",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.AnyPortThreshold",
+    "dataType": "Boolean",
+    "name": "AnyPortThreshold",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad21",
+    "dataType": "Int1",
+    "name": "Pad21",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_3Threshold",
+    "dataType": "Boolean",
+    "name": "PortFa1_3Threshold",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_5UnauthorizedDevice",
+    "dataType": "Boolean",
+    "name": "PortFa1_5UnauthorizedDevice",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad14",
+    "dataType": "Int1",
+    "name": "Pad14",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_5Connected",
+    "dataType": "Boolean",
+    "name": "PortFa1_5Connected",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_3Utilization",
+    "dataType": "Int1",
+    "name": "PortFa1_3Utilization",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad11",
+    "dataType": "Int1",
+    "name": "Pad11",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.AnyPortConnected",
+    "dataType": "Boolean",
+    "name": "AnyPortConnected",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.SVI1Utilization",
+    "dataType": "Int1",
+    "name": "SVI1Utilization",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_1Connected",
+    "dataType": "Boolean",
+    "name": "PortFa1_1Connected",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad1",
+    "dataType": "Int1",
+    "name": "Pad1",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.AlarmRelay",
+    "dataType": "Int4",
+    "name": "AlarmRelay",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad13",
+    "dataType": "Int1",
+    "name": "Pad13",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_2Connected",
+    "dataType": "Boolean",
+    "name": "PortFa1_2Connected",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_5Utilization",
+    "dataType": "Int1",
+    "name": "PortFa1_5Utilization",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad2",
+    "dataType": "Int1",
+    "name": "Pad2",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.MulticastGroupsActive",
+    "dataType": "Int4",
+    "name": "MulticastGroupsActive",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_4UnauthorizedDevice",
+    "dataType": "Boolean",
+    "name": "PortFa1_4UnauthorizedDevice",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad15",
+    "dataType": "Int1",
+    "name": "Pad15",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_6Utilization",
+    "dataType": "Int1",
+    "name": "PortFa1_6Utilization",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad8",
+    "dataType": "Int1",
+    "name": "Pad8",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad10",
+    "dataType": "Int1",
+    "name": "Pad10",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.LinkStatus",
+    "dataType": "Int4",
+    "name": "LinkStatus",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad12",
+    "dataType": "Int1",
+    "name": "Pad12",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.AnyPortUnauthorizedDevice",
+    "dataType": "Boolean",
+    "name": "AnyPortUnauthorizedDevice",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_1Utilization",
+    "dataType": "Int1",
+    "name": "PortFa1_1Utilization",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.UnauthorizedDevice",
+    "dataType": "Int4",
+    "name": "UnauthorizedDevice",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_2Threshold",
+    "dataType": "Boolean",
+    "name": "PortFa1_2Threshold",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_4Threshold",
+    "dataType": "Boolean",
+    "name": "PortFa1_4Threshold",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_5Threshold",
+    "dataType": "Boolean",
+    "name": "PortFa1_5Threshold",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad3",
+    "dataType": "Int1",
+    "name": "Pad3",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad9",
+    "dataType": "Int1",
+    "name": "Pad9",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad16",
+    "dataType": "Int1",
+    "name": "Pad16",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_1Threshold",
+    "dataType": "Boolean",
+    "name": "PortFa1_1Threshold",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_6Threshold",
+    "dataType": "Boolean",
+    "name": "PortFa1_6Threshold",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad23",
+    "dataType": "Int1",
+    "name": "Pad23",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_3UnauthorizedDevice",
+    "dataType": "Boolean",
+    "name": "PortFa1_3UnauthorizedDevice",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.PortFa1_2Utilization",
+    "dataType": "Int1",
+    "name": "PortFa1_2Utilization",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad4",
+    "dataType": "Int1",
+    "name": "Pad4",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad6",
+    "dataType": "Int1",
+    "name": "Pad6",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]Joltek_SW001:I.Pad24",
+    "dataType": "Int1",
+    "name": "Pad24",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]

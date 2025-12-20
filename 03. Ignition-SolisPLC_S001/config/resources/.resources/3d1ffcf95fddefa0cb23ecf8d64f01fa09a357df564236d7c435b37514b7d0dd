@@ -1,0 +1,34 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]HMI_BOOL1[0]",
+    "dataType": "Int4",
+    "name": "HMI_BOOL1_0_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]HMI_BOOL1[2]",
+    "dataType": "Int4",
+    "name": "HMI_BOOL1_2_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]HMI_BOOL1[1]",
+    "dataType": "Int4",
+    "name": "HMI_BOOL1_1_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "ns\u003d1;s\u003d[Joltek_RA_5069PLC002]HMI_BOOL1[3]",
+    "dataType": "Int4",
+    "name": "HMI_BOOL1_3_",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]
