@@ -1,0 +1,1764 @@
+{
+  "custom": {},
+  "params": {
+    "FillerStation1_Level": 50
+  },
+  "propConfig": {
+    "params.FillerStation1_Level": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 920,
+      "width": 1720
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 1428.02,
+          "y": 572.853
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_REAL/HMI_REAL_0_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_0"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 1348.02,
+          "y": 573.288
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_REAL/HMI_REAL_1_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 1720,
+          "y": 96
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_0_.value"
+              },
+              "transforms": [
+                {
+                  "fallback": "Status - Unknown",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": "Filling"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Starved"
+                    },
+                    {
+                      "input": 3,
+                      "output": "Backed Up"
+                    },
+                    {
+                      "input": 4,
+                      "output": "Running"
+                    },
+                    {
+                      "input": 5,
+                      "output": "Stopped"
+                    },
+                    {
+                      "input": 6,
+                      "output": null
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 32
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 64,
+          "width": 1720,
+          "y": 16
+        },
+        "props": {
+          "text": "Filler",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 64
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_1"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 1268.02,
+          "y": 572.754
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_2"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 1188.02,
+          "y": 573.294
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_3"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 868.026,
+          "y": 573.294
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_4"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 948.026,
+          "y": 572.754
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_5"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 1108.02,
+          "y": 572.754
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_6"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 1028.02,
+          "y": 573.294
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_7"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 228.026,
+          "y": 573.294
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_8"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 308.026,
+          "y": 572.754
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_9"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 548.026,
+          "y": 573.294
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_10"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 468.026,
+          "y": 572.754
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_11"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 388.026,
+          "y": 573.294
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_12"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 708.026,
+          "y": 573.294
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_13"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 628.026,
+          "y": 572.754
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_14"
+        },
+        "position": {
+          "height": 128,
+          "width": 64,
+          "x": 788.026,
+          "y": 572.754
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1428.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 1",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_3"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1348.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 2",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_2"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1428.02,
+          "y": 541
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},2)"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": "Idle"
+                    },
+                    {
+                      "input": 1,
+                      "output": "Filling"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_4"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1348.02,
+          "y": 541
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},3)"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": "Idle"
+                    },
+                    {
+                      "input": 1,
+                      "output": "Filling"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_5"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1268.02,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_6"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1268.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 3",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_7"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1028.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 6",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_8"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1108.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 5",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_9"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1108.02,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_10"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1028.02,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_11"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1188.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 4",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_12"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1188.02,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_13"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 788.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 9",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_14"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 868.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 8",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_15"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 868.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_16"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 788.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_17"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 948.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 7",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_18"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 948.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_19"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 228.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 16",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_20"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 308.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 15",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_21"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 388.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 14",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_22"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 308.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_23"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 228.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_24"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 388.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_25"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 468.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 13",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_26"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 468.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_27"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 548.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 12",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_28"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 548.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_29"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 628.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 11",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_30"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 628.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_31"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 708.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_32"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 708.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 10",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Drawing"
+        },
+        "position": {
+          "height": 64,
+          "width": 64,
+          "x": 1428.02,
+          "y": 445
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 40,
+              "name": "rect_0",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 16,
+              "x": 192,
+              "y": 276
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "name": "perspective-polygon",
+              "specialPath": {
+                "angle": 109,
+                "corners": 5,
+                "height": 160,
+                "rounding": 0,
+                "width": 200,
+                "x": 100.26761381612728,
+                "y": 143.26761381612727
+              },
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "perspective-star"
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 100,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 200,
+              "x": 100,
+              "y": 100
+            }
+          ],
+          "viewBox": "90 90 220 220"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Drawing_0"
+        },
+        "position": {
+          "height": 64,
+          "width": 64,
+          "x": 1348.02,
+          "y": 445
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 40,
+              "name": "rect_0",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 16,
+              "x": 192,
+              "y": 276
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "name": "perspective-polygon",
+              "specialPath": {
+                "angle": 109,
+                "corners": 5,
+                "height": 160,
+                "rounding": 0,
+                "width": 200,
+                "x": 100.26761381612728,
+                "y": 143.26761381612727
+              },
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "perspective-star"
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 100,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 200,
+              "x": 100,
+              "y": 100
+            }
+          ],
+          "viewBox": "90 90 220 220"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Drawing_1"
+        },
+        "position": {
+          "height": 132.72,
+          "width": 1264,
+          "x": 234.352,
+          "y": 289
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "name": "perspective-polygon",
+              "specialPath": {
+                "angle": 90,
+                "corners": 6,
+                "height": 60,
+                "rounding": 0,
+                "width": 40,
+                "x": 108,
+                "y": 194
+              },
+              "stroke": {
+                "paint": "#000000",
+                "width": 0
+              },
+              "type": "perspective-star"
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "name": "perspective-polygon_0",
+              "specialPath": {
+                "angle": 90,
+                "corners": 6,
+                "height": 60,
+                "rounding": 0,
+                "width": 40,
+                "x": 1268,
+                "y": 194
+              },
+              "stroke": {
+                "paint": "#000000",
+                "width": 0
+              },
+              "type": "perspective-star"
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 100,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000",
+                "width": 0
+              },
+              "type": "rect",
+              "width": 1200,
+              "x": 108,
+              "y": 124
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 100,
+              "name": "rect_0",
+              "stroke": {
+                "paint": "#000000",
+                "width": 0
+              },
+              "type": "rect",
+              "width": 1167,
+              "x": 121,
+              "y": 150
+            }
+          ],
+          "viewBox": "108 124 1200 126"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Label_33"
+        },
+        "position": {
+          "height": 32,
+          "width": 1264,
+          "x": 234.352,
+          "y": 160
+        },
+        "props": {
+          "text": "Infeed - Empty Bottles",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 24
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_34"
+        },
+        "position": {
+          "height": 32,
+          "width": 264,
+          "x": 234.35,
+          "y": 204
+        },
+        "props": {
+          "text": "Infeed Empty Bottle Count: ",
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_35"
+        },
+        "position": {
+          "height": 32,
+          "width": 120,
+          "x": 520,
+          "y": 204
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_1_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Vessel"
+        },
+        "position": {
+          "height": 173,
+          "width": 102,
+          "x": 72,
+          "y": 127.978
+        },
+        "props": {
+          "displayAgitator": false,
+          "displayFillLevel": false,
+          "label": {
+            "location": "hidden"
+          },
+          "value": {
+            "displayValueAsPercent": false,
+            "location": "hidden"
+          }
+        },
+        "type": "ia.symbol.vessel"
+      },
+      {
+        "meta": {
+          "name": "Label_36"
+        },
+        "position": {
+          "height": 32,
+          "width": 120,
+          "x": 520,
+          "y": 740
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_2_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_37"
+        },
+        "position": {
+          "height": 32,
+          "width": 284,
+          "x": 235.35,
+          "y": 740
+        },
+        "props": {
+          "text": "Discharge Filled Bottle Count: ",
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Drawing_2"
+        },
+        "position": {
+          "height": 32,
+          "width": 1264,
+          "x": 234.352,
+          "y": 248
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 2,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 1264,
+              "x": 116,
+              "y": 148
+            }
+          ],
+          "viewBox": "106 138 1284 22"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Drawing_3"
+        },
+        "position": {
+          "height": 32,
+          "width": 1264,
+          "x": 234.352,
+          "y": 717
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 2,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 1264,
+              "x": 116,
+              "y": 148
+            }
+          ],
+          "viewBox": "106 138 1284 22"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Label_38"
+        },
+        "position": {
+          "height": 32,
+          "width": 102,
+          "x": 72.0089,
+          "y": 184.65
+        },
+        "props": {
+          "text": "Process",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 18
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_39"
+        },
+        "position": {
+          "height": 32,
+          "width": 102,
+          "x": 71.9855,
+          "y": 205.998
+        },
+        "props": {
+          "text": "Tank",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 18
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_40"
+        },
+        "position": {
+          "height": 32,
+          "width": 387,
+          "x": 1111.35,
+          "y": 204
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},0),1,if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},1),2,0))"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": ""
+                    },
+                    {
+                      "input": 1,
+                      "output": "Infeed Empty Bottle Conveyor Empty"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Infeed Empty Bottle Conveyor Low"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "flex-end",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_41"
+        },
+        "position": {
+          "height": 32,
+          "width": 449,
+          "x": 1049.35,
+          "y": 768
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},4),1,if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},5),2,0))"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": ""
+                    },
+                    {
+                      "input": 1,
+                      "output": "Discharge Filled Bottle Conveyor Full"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Discharge Filled Bottle Conveyor Almost Full"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "flex-end",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "\tself.custom.current_tag_value \u003d not self.custom.current_tag_value"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 64,
+          "width": 160,
+          "x": 228.026,
+          "y": 792
+        },
+        "propConfig": {
+          "custom.current_tag_value": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/Sys_DINT/Sys_DINT_3_.value},0),1,0)"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "text": "Start Machine"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "OneShotButton"
+        },
+        "position": {
+          "height": 34,
+          "width": 140,
+          "x": 488.015625,
+          "y": 826
+        },
+        "props": {
+          "readyState": {
+            "icon": {
+              "style": {
+                "height": "24px",
+                "width": "2rem"
+              }
+            },
+            "text": "One-Shot Button"
+          },
+          "writingState": {
+            "icon": {
+              "path": "material/hourglass_empty",
+              "style": {
+                "height": "24px",
+                "width": "2rem"
+              }
+            },
+            "text": "Writing..."
+          }
+        },
+        "type": "ia.input.oneshotbutton"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "position": {
+      "x": -138,
+      "y": -13
+    },
+    "props": {
+      "pipes": [
+        {
+          "appearance": "auto",
+          "end": "none",
+          "fill": "",
+          "flanges": true,
+          "lineVariant": "solid",
+          "name": "pipe_0",
+          "origin": {
+            "connections": [
+              {
+                "connections": [
+                  {
+                    "connections": [
+                      {
+                        "connections": [],
+                        "x": 234.35,
+                        "y": 355.5
+                      }
+                    ],
+                    "x": 198.93,
+                    "y": 355.5
+                  }
+                ],
+                "x": 198.93,
+                "y": 204
+              }
+            ],
+            "x": 170.24,
+            "y": 204
+          },
+          "start": "none",
+          "stroke": "",
+          "visible": true,
+          "width": 10
+        }
+      ]
+    },
+    "type": "ia.container.coord"
+  }
+}

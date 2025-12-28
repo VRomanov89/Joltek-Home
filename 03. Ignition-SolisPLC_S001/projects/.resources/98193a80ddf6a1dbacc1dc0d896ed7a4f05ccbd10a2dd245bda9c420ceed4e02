@@ -1,0 +1,87 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 480,
+      "width": 640
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 640,
+          "y": 16
+        },
+        "props": {
+          "text": "Filler - Simulation Settings",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 24
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_34"
+        },
+        "position": {
+          "height": 24,
+          "width": 400,
+          "x": 16,
+          "y": 56
+        },
+        "props": {
+          "text": "Add empty bottles at the infeed: (max: 50)",
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField"
+        },
+        "position": {
+          "height": 32,
+          "width": 150,
+          "x": 16,
+          "y": 92
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_5_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "inputBounds": {
+            "maximum": 50,
+            "minimum": 0
+          },
+          "mode": "protected"
+        },
+        "type": "ia.input.numeric-entry-field"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
