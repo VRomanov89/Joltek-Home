@@ -4,10 +4,6 @@
       "title": "",
       "viewPath": "Main View/Line Overview"
     },
-    "/capper": {
-      "title": "",
-      "viewPath": "Main View/Capper"
-    },
     "/filler": {
       "title": "",
       "viewPath": "Main View/Filler"
@@ -40,7 +36,7 @@
         "iconUrl": "",
         "id": "",
         "modal": false,
-        "resizable": false,
+        "resizable": true,
         "show": "visible",
         "size": 200,
         "viewParams": {},

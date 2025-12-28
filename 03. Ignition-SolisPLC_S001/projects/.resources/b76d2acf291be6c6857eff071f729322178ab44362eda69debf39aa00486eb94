@@ -1,0 +1,123 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 480,
+      "width": 640
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 640,
+          "y": 16
+        },
+        "props": {
+          "text": "Filler - Simulation Settings",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 24
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_34"
+        },
+        "position": {
+          "height": 24,
+          "width": 400,
+          "x": 16,
+          "y": 56
+        },
+        "props": {
+          "text": "Add empty bottles at the infeed: (max: 50)",
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField"
+        },
+        "position": {
+          "height": 32,
+          "width": 150,
+          "x": 16,
+          "y": 92
+        },
+        "props": {
+          "inputBounds": {
+            "maximum": 50,
+            "minimum": 0
+          },
+          "mode": "protected"
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "draggable": true,
+                "id": "0fKWqQoW",
+                "modal": false,
+                "overlayDismiss": false,
+                "resizable": true,
+                "showCloseIcon": true,
+                "type": "close",
+                "viewPath": "",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_2",
+          "tooltip": {
+            "style": {
+              "color": "#ffa500"
+            }
+          }
+        },
+        "position": {
+          "height": 64,
+          "width": 160,
+          "x": 433,
+          "y": 351
+        },
+        "propConfig": {
+          "custom.current_tag_value": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/Sys_DINT/Sys_DINT_3_.value},0),1,0)"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "text": "Close"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
