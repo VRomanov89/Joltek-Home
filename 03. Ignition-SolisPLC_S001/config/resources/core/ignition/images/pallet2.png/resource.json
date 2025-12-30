@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "pallet2.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-12-30T03:24:22Z"
+    },
+    "size": 223135,
+    "lastModificationSignature": "2b0b478eeb641bddd33c89ab50aec3d7b23adfbacdfd367b35d8c4b8c2456d8a",
+    "height": 0
+  }
+}

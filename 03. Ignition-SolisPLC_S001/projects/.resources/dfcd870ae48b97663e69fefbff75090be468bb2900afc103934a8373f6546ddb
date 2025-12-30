@@ -1,0 +1,215 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 920,
+      "width": 200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 200
+        },
+        "props": {
+          "style": {
+            "alignItems": "center",
+            "fontSize": 24
+          },
+          "text": "Navigation"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Link"
+            },
+            "position": {
+              "basis": "160px"
+            },
+            "props": {
+              "target": "self",
+              "text": "Overview",
+              "url": "/"
+            },
+            "type": "ia.navigation.link"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "height": 24,
+          "width": 200,
+          "y": 44
+        },
+        "props": {
+          "justify": "center"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Link"
+            },
+            "position": {
+              "basis": "160px"
+            },
+            "props": {
+              "target": "self",
+              "text": "Filler",
+              "url": "/filler"
+            },
+            "type": "ia.navigation.link"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_0"
+        },
+        "position": {
+          "height": 24,
+          "width": 200,
+          "y": 76
+        },
+        "props": {
+          "justify": "center"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Link"
+            },
+            "position": {
+              "basis": "160px"
+            },
+            "props": {
+              "target": "self",
+              "text": "Capper",
+              "url": "/capper"
+            },
+            "type": "ia.navigation.link"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_1"
+        },
+        "position": {
+          "height": 24,
+          "width": 200,
+          "y": 108
+        },
+        "props": {
+          "justify": "center"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Link"
+            },
+            "position": {
+              "basis": "160px"
+            },
+            "props": {
+              "target": "self",
+              "text": "Labeler",
+              "url": "/labeler"
+            },
+            "type": "ia.navigation.link"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_2"
+        },
+        "position": {
+          "height": 24,
+          "width": 200,
+          "y": 140
+        },
+        "props": {
+          "justify": "center"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Link"
+            },
+            "position": {
+              "basis": "160px"
+            },
+            "props": {
+              "target": "self",
+              "text": "Case Packer",
+              "url": "/filler"
+            },
+            "type": "ia.navigation.link"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_3"
+        },
+        "position": {
+          "height": 24,
+          "width": 200,
+          "y": 172
+        },
+        "props": {
+          "justify": "center"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Link"
+            },
+            "position": {
+              "basis": "160px"
+            },
+            "props": {
+              "target": "self",
+              "text": "Palletizer",
+              "url": "/filler"
+            },
+            "type": "ia.navigation.link"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_4"
+        },
+        "position": {
+          "height": 24,
+          "width": 200,
+          "y": 204
+        },
+        "props": {
+          "justify": "center"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

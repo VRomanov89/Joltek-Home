@@ -1,0 +1,36 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 920,
+      "width": 1720
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 64,
+          "width": 1720,
+          "y": 16
+        },
+        "props": {
+          "text": "Palletizer",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 64
+          }
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

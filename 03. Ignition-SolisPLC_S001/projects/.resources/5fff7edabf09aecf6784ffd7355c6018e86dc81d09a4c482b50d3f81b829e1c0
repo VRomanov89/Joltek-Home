@@ -1,0 +1,71 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": "Main View/Line Overview"
+    },
+    "/capper": {
+      "title": "",
+      "viewPath": "Main View/Capper"
+    },
+    "/filler": {
+      "title": "",
+      "viewPath": "Main View/Filler"
+    },
+    "/labeler": {
+      "title": "",
+      "viewPath": "Main View/Labeler"
+    }
+  },
+  "sharedDocks": {
+    "bottom": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 80,
+        "viewParams": {},
+        "viewPath": "Footer/Footer - Main"
+      }
+    ],
+    "cornerPriority": "top-bottom",
+    "left": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 200,
+        "viewParams": {},
+        "viewPath": "Left Side Bar/Left Side Bar - Main"
+      }
+    ],
+    "top": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 80,
+        "viewParams": {},
+        "viewPath": "Nav Bar/Nav Bar - Main"
+      }
+    ]
+  }
+}
