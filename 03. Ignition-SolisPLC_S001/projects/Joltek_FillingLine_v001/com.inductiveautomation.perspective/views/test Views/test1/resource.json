@@ -1,0 +1,17 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "view.json",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "9f2a7102c83ead3191d8c8e6ecf97cfa264fc6c803828c44f0bd4db4cd8b094e",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-12-31T22:05:02Z"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Labeler.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-12-30T05:30:58Z"
+    },
+    "size": 94682,
+    "lastModificationSignature": "4f725eb8e0a65aae8faed8573d2b7795e48eb6488d07552ca444e6c159b04293",
+    "height": 0
+  }
+}

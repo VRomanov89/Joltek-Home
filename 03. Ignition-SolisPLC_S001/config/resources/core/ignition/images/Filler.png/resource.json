@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Filler.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-12-30T05:30:35Z"
+    },
+    "size": 83224,
+    "lastModificationSignature": "2ec0f558832bda5c0680ee42137c042360dbee91b0d98dd1da7983d8e3962117",
+    "height": 0
+  }
+}
