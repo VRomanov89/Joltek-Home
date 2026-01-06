@@ -2063,7 +2063,7 @@
           "y": 620
         },
         "props": {
-          "text": "Glue Level",
+          "text": "Empty Cases",
           "textStyle": {
             "alignSelf": "center",
             "fontSize": 16
@@ -2119,7 +2119,7 @@
               "config": {
                 "fallbackDelay": 2.5,
                 "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_REAL/HMI_REAL_4_.value"
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_31_.value"
               },
               "type": "tag"
             }
