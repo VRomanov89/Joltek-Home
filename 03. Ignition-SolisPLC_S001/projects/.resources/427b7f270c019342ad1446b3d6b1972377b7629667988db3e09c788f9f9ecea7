@@ -1,0 +1,38 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 80,
+      "width": 1920
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Joltek_Dark"
+        },
+        "position": {
+          "height": 64,
+          "width": 220,
+          "x": 8,
+          "y": 8
+        },
+        "props": {
+          "fit": {
+            "height": 64,
+            "mode": "fill",
+            "width": 220
+          },
+          "source": "/system/images/Joltek_Dark.png"
+        },
+        "type": "ia.display.image"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

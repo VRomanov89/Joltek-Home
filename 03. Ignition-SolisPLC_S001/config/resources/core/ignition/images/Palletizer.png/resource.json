@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Palletizer.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-12-30T05:37:34Z"
+    },
+    "size": 97923,
+    "lastModificationSignature": "74ecf90abece5efd8780afacf40a327d34fdc9b042e94d660fe4d6091b3f612b",
+    "height": 0
+  }
+}

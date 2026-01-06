@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Joltek_Dark.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2026-01-02T21:46:48Z"
+    },
+    "size": 6705,
+    "lastModificationSignature": "8f60e5d287b4b2e9059cd2e6fe9f3ceb6527151be24a26611c7533262669448f",
+    "height": 0
+  }
+}

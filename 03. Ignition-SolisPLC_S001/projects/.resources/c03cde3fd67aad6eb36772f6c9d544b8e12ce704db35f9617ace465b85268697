@@ -1,0 +1,4482 @@
+{
+  "custom": {},
+  "params": {
+    "FillerStation1_Level": 50
+  },
+  "propConfig": {
+    "params.FillerStation1_Level": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 920,
+      "width": 1720
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Glass bottle with cap_2"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 1344,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_0"
+        },
+        "position": {
+          "height": 107,
+          "width": 49,
+          "x": 1355,
+          "y": 616
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_REAL/HMI_REAL_1_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 1720,
+          "y": 96
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_0_.value"
+              },
+              "transforms": [
+                {
+                  "fallback": "Status - Unknown",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 1,
+                      "output": "Filling"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Starved"
+                    },
+                    {
+                      "input": 3,
+                      "output": "Backed Up"
+                    },
+                    {
+                      "input": 4,
+                      "output": "Running"
+                    },
+                    {
+                      "input": 5,
+                      "output": "Stopped"
+                    },
+                    {
+                      "input": 6,
+                      "output": "Faulted"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 32
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 64,
+          "width": 1720,
+          "y": 16
+        },
+        "props": {
+          "text": "Filler",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 64
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1428.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 1",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_3"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1348.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 2",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_2"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1428.02,
+          "y": 541
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},2)"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": "Idle"
+                    },
+                    {
+                      "input": 1,
+                      "output": "Filling"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_4"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1348,
+          "y": 541
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},3)"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": "Idle"
+                    },
+                    {
+                      "input": 1,
+                      "output": "Filling"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_5"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1268.02,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_6"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1268.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 3",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_7"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1028.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 6",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_8"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1108.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 5",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_9"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1108.02,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_10"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1028.02,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_11"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1188.02,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 4",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_12"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 1188.02,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_13"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 788.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 9",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_14"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 868.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 8",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_15"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 868.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_16"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 788.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_17"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 948.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 7",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 14
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_18"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 948.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_19"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 228.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 16",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_20"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 308.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 15",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_21"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 388.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 14",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_22"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 308.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_23"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 228.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_24"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 388.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_25"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 468.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 13",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_26"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 468.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_27"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 548.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 12",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_28"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 548.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_29"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 628.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 11",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_30"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 628.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_31"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 708.026,
+          "y": 541
+        },
+        "props": {
+          "text": "Inactive",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 12
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_32"
+        },
+        "position": {
+          "height": 24,
+          "width": 64,
+          "x": 708.026,
+          "y": 517
+        },
+        "props": {
+          "text": "Station 10",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 13.5
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Drawing"
+        },
+        "position": {
+          "height": 64,
+          "width": 64,
+          "x": 1428.02,
+          "y": 445
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 40,
+              "name": "rect_0",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 16,
+              "x": 192,
+              "y": 276
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "name": "perspective-polygon",
+              "specialPath": {
+                "angle": 109,
+                "corners": 5,
+                "height": 160,
+                "rounding": 0,
+                "width": 200,
+                "x": 100.26761381612728,
+                "y": 143.26761381612727
+              },
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "perspective-star"
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 100,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 200,
+              "x": 100,
+              "y": 100
+            }
+          ],
+          "viewBox": "90 90 220 220"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Drawing_0"
+        },
+        "position": {
+          "height": 64,
+          "width": 64,
+          "x": 1348.02,
+          "y": 445
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 40,
+              "name": "rect_0",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 16,
+              "x": 192,
+              "y": 276
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "name": "perspective-polygon",
+              "specialPath": {
+                "angle": 109,
+                "corners": 5,
+                "height": 160,
+                "rounding": 0,
+                "width": 200,
+                "x": 100.26761381612728,
+                "y": 143.26761381612727
+              },
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "perspective-star"
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 100,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 200,
+              "x": 100,
+              "y": 100
+            }
+          ],
+          "viewBox": "90 90 220 220"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Drawing_1"
+        },
+        "position": {
+          "height": 132.72,
+          "width": 1264,
+          "x": 234.352,
+          "y": 289
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "name": "perspective-polygon",
+              "specialPath": {
+                "angle": 90,
+                "corners": 6,
+                "height": 60,
+                "rounding": 0,
+                "width": 40,
+                "x": 108,
+                "y": 194
+              },
+              "stroke": {
+                "paint": "#000000",
+                "width": 0
+              },
+              "type": "perspective-star"
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "name": "perspective-polygon_0",
+              "specialPath": {
+                "angle": 90,
+                "corners": 6,
+                "height": 60,
+                "rounding": 0,
+                "width": 40,
+                "x": 1268,
+                "y": 194
+              },
+              "stroke": {
+                "paint": "#000000",
+                "width": 0
+              },
+              "type": "perspective-star"
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 100,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000",
+                "width": 0
+              },
+              "type": "rect",
+              "width": 1200,
+              "x": 108,
+              "y": 124
+            },
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 100,
+              "name": "rect_0",
+              "stroke": {
+                "paint": "#000000",
+                "width": 0
+              },
+              "type": "rect",
+              "width": 1167,
+              "x": 121,
+              "y": 150
+            }
+          ],
+          "viewBox": "108 124 1200 126"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Label_33"
+        },
+        "position": {
+          "height": 32,
+          "width": 1264,
+          "x": 234.352,
+          "y": 160
+        },
+        "props": {
+          "text": "Infeed - Empty Bottles",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 24
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_34"
+        },
+        "position": {
+          "height": 32,
+          "width": 264,
+          "x": 234.35,
+          "y": 204
+        },
+        "props": {
+          "text": "Infeed Empty Bottle Count: ",
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_35"
+        },
+        "position": {
+          "height": 32,
+          "width": 120,
+          "x": 520,
+          "y": 204
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_1_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Vessel"
+        },
+        "position": {
+          "height": 173,
+          "width": 102,
+          "x": 72,
+          "y": 127.978
+        },
+        "props": {
+          "displayAgitator": false,
+          "displayFillLevel": false,
+          "label": {
+            "location": "hidden"
+          },
+          "value": {
+            "displayValueAsPercent": false,
+            "location": "hidden"
+          }
+        },
+        "type": "ia.symbol.vessel"
+      },
+      {
+        "meta": {
+          "name": "Label_36"
+        },
+        "position": {
+          "height": 32,
+          "width": 120,
+          "x": 520,
+          "y": 740
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_2_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_37"
+        },
+        "position": {
+          "height": 32,
+          "width": 284,
+          "x": 235.35,
+          "y": 740
+        },
+        "props": {
+          "text": "Discharge Filled Bottle Count: ",
+          "textStyle": {
+            "alignSelf": "auto",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Drawing_2"
+        },
+        "position": {
+          "height": 32,
+          "width": 1264,
+          "x": 234.352,
+          "y": 248
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 2,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 1264,
+              "x": 116,
+              "y": 148
+            }
+          ],
+          "viewBox": "106 138 1284 22"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Drawing_3"
+        },
+        "position": {
+          "height": 32,
+          "width": 1264,
+          "x": 234.352,
+          "y": 717
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 2,
+              "name": "rect",
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 1264,
+              "x": 116,
+              "y": 148
+            }
+          ],
+          "viewBox": "106 138 1284 22"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Label_38"
+        },
+        "position": {
+          "height": 32,
+          "width": 102,
+          "x": 72.0089,
+          "y": 184.65
+        },
+        "props": {
+          "text": "Process",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 18
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_39"
+        },
+        "position": {
+          "height": 32,
+          "width": 102,
+          "x": 71.9855,
+          "y": 205.998
+        },
+        "props": {
+          "text": "Tank",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 18
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_40"
+        },
+        "position": {
+          "height": 32,
+          "width": 387,
+          "x": 1111.35,
+          "y": 204
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},0),1,if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},1),2,0))"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": ""
+                    },
+                    {
+                      "input": 1,
+                      "output": "Infeed Empty Bottle Conveyor Empty"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Infeed Empty Bottle Conveyor Low"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "flex-end",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_41"
+        },
+        "position": {
+          "height": 32,
+          "width": 449,
+          "x": 1049.35,
+          "y": 740
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},4),1,if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},5),2,0))"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": ""
+                    },
+                    {
+                      "input": 1,
+                      "output": "Discharge Filled Bottle Conveyor Full"
+                    },
+                    {
+                      "input": 2,
+                      "output": "Discharge Filled Bottle Conveyor Almost Full"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "flex-end",
+            "fontSize": 20
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "dom": {
+            "onPointerCancel": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 13)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            },
+            "onPointerDown": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Set bit 13\n\tnewValue \u003d int(current) | (1 \u003c\u003c 13)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            },
+            "onPointerUp": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 13\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 13)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button",
+          "tooltip": {
+            "style": {
+              "color": "#ffa500"
+            }
+          }
+        },
+        "position": {
+          "height": 64,
+          "width": 160,
+          "x": 220,
+          "y": 792
+        },
+        "propConfig": {
+          "custom.current_tag_value": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/Sys_DINT/Sys_DINT_3_.value},0),1,0)"
+              },
+              "type": "expr"
+            }
+          },
+          "props.enabled": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},12),1,0)"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": false
+                    },
+                    {
+                      "input": 1,
+                      "output": true
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          },
+          "props.style.backgroundColor": {
+            "binding": {
+              "config": {
+                "expression": "if(\r\n  getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value}, 12),\r\n  \"#2ecc71\",\r\n  \"#7f8c8d\"\r\n)"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "text": "Start Machine"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onPointerCancel": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 15)\n\n    # Force signed 16-bit range (-32768..32767)\n\tnewValue \u003d ((newValue + 32768) % 65536) - 32768\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            },
+            "onPointerDown": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Set bit 15\n\tnewValue \u003d int(current) | (1 \u003c\u003c 15)\n\n    # Force signed 16-bit range (-32768..32767)\n\tnewValue \u003d ((newValue + 32768) % 65536) - 32768\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            },
+            "onPointerUp": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 15\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 15)\n\n    # Force signed 16-bit range (-32768..32767)\n\tnewValue \u003d ((newValue + 32768) % 65536) - 32768\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0",
+          "tooltip": {
+            "style": {
+              "color": "#ffa500"
+            }
+          }
+        },
+        "position": {
+          "height": 64,
+          "width": 160,
+          "x": 420,
+          "y": 792
+        },
+        "propConfig": {
+          "custom.current_tag_value": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/Sys_DINT/Sys_DINT_3_.value},0),1,0)"
+              },
+              "type": "expr"
+            }
+          },
+          "props.enabled": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value},14),1,0)"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": false
+                    },
+                    {
+                      "input": 1,
+                      "output": true
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          },
+          "props.style.backgroundColor": {
+            "binding": {
+              "config": {
+                "expression": "if(\r\n  getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_3_.value}, 14),\r\n  \"#e74c3c\",\r\n  \"#7f8c8d\"\r\n)"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "text": "Stop Machine"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onPointerCancel": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            },
+            "onPointerDown": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Set bit 1\n\tnewValue \u003d int(current) | (1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            },
+            "onPointerUp": {
+              "config": {
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 1\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_1",
+          "tooltip": {
+            "style": {
+              "color": "#ffa500"
+            }
+          }
+        },
+        "position": {
+          "height": 64,
+          "width": 160,
+          "x": 620,
+          "y": 792
+        },
+        "propConfig": {
+          "custom.current_tag_value": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/Sys_DINT/Sys_DINT_3_.value},0),1,0)"
+              },
+              "type": "expr"
+            }
+          },
+          "props.enabled": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_.value},0),1,0)"
+              },
+              "transforms": [
+                {
+                  "fallback": null,
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": 0,
+                      "output": false
+                    },
+                    {
+                      "input": 1,
+                      "output": true
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "text": "Clear Faults / Reset"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "draggable": true,
+                "id": "Jl4u57QT",
+                "modal": false,
+                "overlayDismiss": false,
+                "position": {
+                  "height": 480,
+                  "relativeLocation": "top-left",
+                  "width": 646
+                },
+                "positionType": "relative",
+                "resizable": false,
+                "showCloseIcon": true,
+                "type": "open",
+                "viewPath": "PopUps/Filler - Simulation",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_2",
+          "tooltip": {
+            "style": {
+              "color": "#ffa500"
+            }
+          }
+        },
+        "position": {
+          "height": 64,
+          "width": 160,
+          "x": 1320,
+          "y": 792
+        },
+        "propConfig": {
+          "custom.current_tag_value": {
+            "binding": {
+              "config": {
+                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/Sys_DINT/Sys_DINT_3_.value},0),1,0)"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "text": "Filler - Simulation Settings"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_1"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 1425,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 107,
+          "width": 49,
+          "x": 1436,
+          "y": 616
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_REAL/HMI_REAL_0_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_3"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 224.5,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_15"
+        },
+        "position": {
+          "height": 107,
+          "width": 49,
+          "x": 235.5,
+          "y": 616
+        },
+        "props": {
+          "valueDisplay": {
+            "style": {
+              "fontSize": 64
+            }
+          }
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_4"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 1620,
+          "y": 563.9955444335938
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_5"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 301.00518798828125,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_6"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 372.01518798828124,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_7"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 452.02518798828123,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_8"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 548.0508129882812,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_9"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 873.05,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_10"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 777.03,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_11"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 697.02,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_12"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 626.01,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_13"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 1196.05,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_14"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 1100.03,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_15"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 1020.02,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_16"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 949.01,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "Glass bottle with cap_17"
+        },
+        "position": {
+          "height": 160,
+          "width": 71,
+          "x": 1252.0291259765625,
+          "y": 564
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#B2B2B2",
+                      "style": {
+                        "stopColor": "#B2B2B2"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#333333",
+                      "style": {
+                        "stopColor": "#333333"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "9.5728",
+                  "x2": "26.915",
+                  "y1": "4.4482",
+                  "y2": "4.4482"
+                },
+                {
+                  "d": "M25.789,8.896l1.126-0.451V5.968l-1.126-1.126l0.45-2.478l-0.45-1.689L23.312,0H13.176l-2.478,0.676   l-0.675,1.689l0.675,2.478L9.573,5.968v2.478l1.126,0.451H25.789",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M25.113,5.968l-0.901-1.126l0.226-1.351H12.05l0.225,1.351l-0.901,1.126H25.113z",
+                  "fill": {
+                    "paint": "#4C4C4C"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle_Cap",
+              "name": "Group_Bottle_Cap",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#595959",
+                      "style": {
+                        "stopColor": "#595959"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "4.882813e-004",
+                  "x2": "35.4736",
+                  "y1": "60.6982",
+                  "y2": "60.6982"
+                },
+                {
+                  "d": "M34.798,110.022l-1.126,0.901l-2.253,0.563l-3.378,0.563l-3.829,0.112l-4.279,0.338h-4.504   l-4.504-0.338l-3.829-0.112l-3.153-0.563l-2.252-0.563l-1.014-0.901L0,107.771v-4.955l0.676-0.563v-4.166L0,96.283v-1.801   l0.676-0.676V49.212L0,48.761v-3.153l0.676-0.45v-3.604L0,40.203l1.689-4.504l2.252-3.829l3.153-3.153l2.478-4.73l1.126-15.09   h15.09l0.45,15.09l1.802,4.73l3.378,3.153l2.027,3.829l1.803,4.504l-0.451,1.352v3.604l0.676,0.45v3.153l-0.676,0.451v44.595   l0.676,0.676v1.801l-0.676,1.803v4.166l0.676,0.563v4.955L34.798,110.022",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Bottle",
+              "name": "Group_Bottle",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M6.419,44.482h1.802v55.293H6.419V44.482z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M10.699,37.275H12.5V92.68h-1.802V37.275z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Stripes",
+              "name": "Group_Stripes",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 35.475 112.5"
+        },
+        "type": "ia.shapes.svg"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "position": {
+      "x": -138,
+      "y": -13
+    },
+    "props": {
+      "pipes": [
+        {
+          "appearance": "auto",
+          "end": "none",
+          "fill": "",
+          "flanges": true,
+          "lineVariant": "solid",
+          "name": "pipe_0",
+          "origin": {
+            "connections": [
+              {
+                "connections": [
+                  {
+                    "connections": [
+                      {
+                        "connections": [],
+                        "x": 234.35,
+                        "y": 355.5
+                      }
+                    ],
+                    "x": 198.93,
+                    "y": 355.5
+                  }
+                ],
+                "x": 198.93,
+                "y": 204
+              }
+            ],
+            "x": 170.24,
+            "y": 204
+          },
+          "start": "none",
+          "stroke": "",
+          "visible": true,
+          "width": 10
+        }
+      ]
+    },
+    "type": "ia.container.coord"
+  }
+}

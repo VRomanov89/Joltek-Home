@@ -1,0 +1,21 @@
+{
+  "scope": "A",
+  "description": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "Capper.png"
+  ],
+  "attributes": {
+    "width": 0,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "Joltek",
+      "timestamp": "2025-12-30T05:29:32Z"
+    },
+    "size": 79171,
+    "lastModificationSignature": "7f00fa66134ab877939918640866a515668a391f664d89d3371999bfff905706",
+    "height": 0
+  }
+}
