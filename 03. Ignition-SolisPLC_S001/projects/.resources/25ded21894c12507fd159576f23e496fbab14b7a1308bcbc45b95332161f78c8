@@ -2303,13 +2303,45 @@
       },
       {
         "meta": {
+          "name": "Drawing_5"
+        },
+        "position": {
+          "height": 116,
+          "width": 562,
+          "x": 578.84,
+          "y": 373
+        },
+        "props": {
+          "elements": [
+            {
+              "fill": {
+                "paint": "#70757A"
+              },
+              "height": 60,
+              "name": "rect",
+              "opacity": 0.800000011920929,
+              "stroke": {
+                "paint": "#000000"
+              },
+              "type": "rect",
+              "width": 400,
+              "x": 150,
+              "y": 106
+            }
+          ],
+          "viewBox": "140 96 420 80"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
           "name": "Motor"
         },
         "position": {
           "height": 100,
           "width": 100,
-          "x": 869.763,
-          "y": 277.704
+          "x": 870.763,
+          "y": 278.704
         },
         "props": {
           "label": {
@@ -7485,352 +7517,6 @@
           "viewBox": "0 0 35.475 112.5"
         },
         "type": "ia.shapes.svg"
-      },
-      {
-        "events": {
-          "component": {
-            "onActionPerformed": {
-              "config": {
-                "draggable": true,
-                "id": "Jl4u57QT",
-                "modal": false,
-                "overlayDismiss": false,
-                "position": {
-                  "height": 480,
-                  "relativeLocation": "top-left",
-                  "width": 646
-                },
-                "positionType": "relative",
-                "resizable": false,
-                "showCloseIcon": true,
-                "type": "open",
-                "viewPath": "PopUps/Filler - Simulation",
-                "viewportBound": false
-              },
-              "scope": "C",
-              "type": "popup"
-            }
-          }
-        },
-        "meta": {
-          "name": "Button_2",
-          "tooltip": {
-            "style": {
-              "color": "#ffa500"
-            }
-          }
-        },
-        "position": {
-          "height": 64,
-          "width": 160,
-          "x": 1320,
-          "y": 792
-        },
-        "propConfig": {
-          "custom.current_tag_value": {
-            "binding": {
-              "config": {
-                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/Sys_DINT/Sys_DINT_3_.value},0),1,0)"
-              },
-              "type": "expr"
-            }
-          }
-        },
-        "props": {
-          "text": "Filler - Simulation Settings"
-        },
-        "type": "ia.input.button"
-      },
-      {
-        "events": {
-          "dom": {
-            "onPointerCancel": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerDown": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Set bit 1\n\tnewValue \u003d int(current) | (1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerLeave": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 1\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])\t"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerOut": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 1\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])\t"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerUp": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 1\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            }
-          }
-        },
-        "meta": {
-          "name": "Button_1",
-          "tooltip": {
-            "style": {
-              "color": "#ffa500"
-            }
-          }
-        },
-        "position": {
-          "height": 64,
-          "width": 160,
-          "x": 620,
-          "y": 792
-        },
-        "propConfig": {
-          "custom.current_tag_value": {
-            "binding": {
-              "config": {
-                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/Sys_DINT/Sys_DINT_3_.value},0),1,0)"
-              },
-              "type": "expr"
-            }
-          },
-          "props.enabled": {
-            "binding": {
-              "config": {
-                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_.value},0),1,0)"
-              },
-              "transforms": [
-                {
-                  "fallback": null,
-                  "inputType": "scalar",
-                  "mappings": [
-                    {
-                      "input": 0,
-                      "output": false
-                    },
-                    {
-                      "input": 1,
-                      "output": true
-                    }
-                  ],
-                  "outputType": "scalar",
-                  "type": "map"
-                }
-              ],
-              "type": "expr"
-            }
-          }
-        },
-        "props": {
-          "text": "Clear Faults / Reset"
-        },
-        "type": "ia.input.button"
-      },
-      {
-        "custom": {
-          "current_tag_value": 0
-        },
-        "events": {
-          "dom": {
-            "onPointerCancel": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 13)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerDown": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Set bit 13\n\tnewValue \u003d int(current) | (1 \u003c\u003c 13)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerLeave": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 13)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerOut": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 13)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerUp": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 13)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            }
-          }
-        },
-        "meta": {
-          "name": "Button_0",
-          "tooltip": {
-            "style": {
-              "color": "#ffa500"
-            }
-          }
-        },
-        "position": {
-          "height": 64,
-          "width": 160,
-          "x": 420,
-          "y": 792
-        },
-        "propConfig": {
-          "props.enabled": {
-            "binding": {
-              "config": {
-                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_.value},12),1,0)"
-              },
-              "transforms": [
-                {
-                  "fallback": null,
-                  "inputType": "scalar",
-                  "mappings": [
-                    {
-                      "input": 0,
-                      "output": false
-                    },
-                    {
-                      "input": 1,
-                      "output": true
-                    }
-                  ],
-                  "outputType": "scalar",
-                  "type": "map"
-                }
-              ],
-              "type": "expr"
-            }
-          },
-          "props.style.backgroundColor": {
-            "binding": {
-              "config": {
-                "expression": "if(\r\n  getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_.value}, 12),\r\n  \"#e74c3c\",\r\n  \"#7f8c8d\"\r\n)"
-              },
-              "type": "expr"
-            }
-          }
-        },
-        "props": {
-          "text": "Stop Machine"
-        },
-        "type": "ia.input.button"
-      },
-      {
-        "custom": {
-          "current_tag_value": 0
-        },
-        "events": {
-          "dom": {
-            "onPointerCancel": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 11)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerDown": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Set bit 13\n\tnewValue \u003d int(current) | (1 \u003c\u003c 11)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerLeave": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 13\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 11)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])\t"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerOut": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 13\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 11)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            },
-            "onPointerUp": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Clear bit 13\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 11)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
-              },
-              "scope": "G",
-              "type": "script"
-            }
-          }
-        },
-        "meta": {
-          "name": "Button",
-          "tooltip": {
-            "style": {
-              "color": "#ffa500"
-            }
-          }
-        },
-        "position": {
-          "height": 64,
-          "width": 160,
-          "x": 220,
-          "y": 792
-        },
-        "propConfig": {
-          "props.enabled": {
-            "binding": {
-              "config": {
-                "expression": "if(getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_.value},10),1,0)"
-              },
-              "transforms": [
-                {
-                  "fallback": null,
-                  "inputType": "scalar",
-                  "mappings": [
-                    {
-                      "input": 0,
-                      "output": false
-                    },
-                    {
-                      "input": 1,
-                      "output": true
-                    }
-                  ],
-                  "outputType": "scalar",
-                  "type": "map"
-                }
-              ],
-              "type": "expr"
-            }
-          },
-          "props.style.backgroundColor": {
-            "binding": {
-              "config": {
-                "expression": "if(\r\n  getBit({[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_33_.value}, 10),\r\n  \"#2ecc71\",\r\n  \"#7f8c8d\"\r\n)"
-              },
-              "type": "expr"
-            }
-          }
-        },
-        "props": {
-          "text": "Start Machine"
-        },
-        "type": "ia.input.button"
       }
     ],
     "meta": {
