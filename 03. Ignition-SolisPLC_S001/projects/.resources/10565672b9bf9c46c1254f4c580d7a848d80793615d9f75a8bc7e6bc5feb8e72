@@ -67,18 +67,6 @@
           "x": 16,
           "y": 92
         },
-        "propConfig": {
-          "props.value": {
-            "binding": {
-              "config": {
-                "fallbackDelay": 2.5,
-                "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_66_.value"
-              },
-              "type": "tag"
-            }
-          }
-        },
         "props": {
           "clearOnCommit": true,
           "commitOnBlur": false,
@@ -87,7 +75,8 @@
           "inputBounds": {
             "maximum": 50,
             "minimum": 0
-          }
+          },
+          "value": 0
         },
         "type": "ia.input.numeric-entry-field"
       },
@@ -99,35 +88,35 @@
           "dom": {
             "onPointerCancel": {
               "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 2)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_50_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
               },
               "scope": "G",
               "type": "script"
             },
             "onPointerDown": {
               "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Set bit 13\n\tnewValue \u003d int(current) | (1 \u003c\u003c 2)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_50_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n    # Set bit 13\n\tnewValue \u003d int(current) | (1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
               },
               "scope": "G",
               "type": "script"
             },
             "onPointerLeave": {
               "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 2)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_50_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
               },
               "scope": "G",
               "type": "script"
             },
             "onPointerOut": {
               "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 2)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_50_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
               },
               "scope": "G",
               "type": "script"
             },
             "onPointerUp": {
               "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_4_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 2)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
+                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_50_\"\n\n\tcurrent \u003d system.tag.readBlocking([tagPath])[0].value\n\tif current is None:\n\t\tcurrent \u003d 0\n\n\tnewValue \u003d int(current) \u0026 ~(1 \u003c\u003c 1)\n\n\tsystem.tag.writeBlocking([tagPath], [newValue])"
               },
               "scope": "G",
               "type": "script"

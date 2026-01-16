@@ -2328,19 +2328,8 @@
           "x": 416,
           "y": 231
         },
-        "propConfig": {
-          "props.text": {
-            "binding": {
-              "config": {
-                "fallbackDelay": 2.5,
-                "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_67_.value"
-              },
-              "type": "tag"
-            }
-          }
-        },
         "props": {
+          "text": "55",
           "textStyle": {
             "alignSelf": "flex-start",
             "fontSize": 12
@@ -2543,19 +2532,8 @@
           "x": 976,
           "y": 231
         },
-        "propConfig": {
-          "props.text": {
-            "binding": {
-              "config": {
-                "fallbackDelay": 2.5,
-                "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_68_.value"
-              },
-              "type": "tag"
-            }
-          }
-        },
         "props": {
+          "text": "55",
           "textStyle": {
             "alignSelf": "flex-start",
             "fontSize": 12
@@ -2758,19 +2736,8 @@
           "x": 1536,
           "y": 231
         },
-        "propConfig": {
-          "props.text": {
-            "binding": {
-              "config": {
-                "fallbackDelay": 2.5,
-                "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_69_.value"
-              },
-              "type": "tag"
-            }
-          }
-        },
         "props": {
+          "text": "55",
           "textStyle": {
             "alignSelf": "flex-start",
             "fontSize": 12
@@ -2973,19 +2940,8 @@
           "x": 696,
           "y": 569
         },
-        "propConfig": {
-          "props.text": {
-            "binding": {
-              "config": {
-                "fallbackDelay": 2.5,
-                "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_70_.value"
-              },
-              "type": "tag"
-            }
-          }
-        },
         "props": {
+          "text": "55",
           "textStyle": {
             "alignSelf": "flex-start",
             "fontSize": 12
@@ -3169,19 +3125,8 @@
           "x": 1256,
           "y": 569
         },
-        "propConfig": {
-          "props.text": {
-            "binding": {
-              "config": {
-                "fallbackDelay": 2.5,
-                "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_71_.value"
-              },
-              "type": "tag"
-            }
-          }
-        },
         "props": {
+          "text": "55",
           "textStyle": {
             "alignSelf": "flex-start",
             "fontSize": 12

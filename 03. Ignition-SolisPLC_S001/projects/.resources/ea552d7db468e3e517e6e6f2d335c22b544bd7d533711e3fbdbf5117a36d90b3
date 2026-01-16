@@ -19,7 +19,7 @@
           "y": 16
         },
         "props": {
-          "text": "Filler - Simulation Settings",
+          "text": "Overall - Simulation Settings",
           "textStyle": {
             "alignSelf": "center",
             "fontSize": 24
@@ -38,58 +38,13 @@
           "y": 56
         },
         "props": {
-          "text": "Add empty bottles at the infeed: (max: 50)",
+          "text": "Reset the Product Counts for All Assets",
           "textStyle": {
             "alignSelf": "auto",
             "fontSize": 16
           }
         },
         "type": "ia.display.label"
-      },
-      {
-        "events": {
-          "component": {
-            "onActionPerformed": {
-              "config": {
-                "script": "\ttagPath \u003d \"[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_5_\"\n\n\tenteredValue \u003d self.props.value\n\tif enteredValue is None:\n\t\treturn\n\n\tsystem.tag.writeBlocking([tagPath], [int(enteredValue)])"
-              },
-              "scope": "G",
-              "type": "script"
-            }
-          }
-        },
-        "meta": {
-          "name": "NumericEntryField"
-        },
-        "position": {
-          "height": 32,
-          "width": 150,
-          "x": 16,
-          "y": 92
-        },
-        "propConfig": {
-          "props.value": {
-            "binding": {
-              "config": {
-                "fallbackDelay": 2.5,
-                "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_66_.value"
-              },
-              "type": "tag"
-            }
-          }
-        },
-        "props": {
-          "clearOnCommit": true,
-          "commitOnBlur": false,
-          "commitOnEnter": true,
-          "defaultValue": 0,
-          "inputBounds": {
-            "maximum": 50,
-            "minimum": 0
-          }
-        },
-        "type": "ia.input.numeric-entry-field"
       },
       {
         "custom": {
@@ -145,7 +100,7 @@
         "position": {
           "height": 32,
           "width": 160,
-          "x": 190,
+          "x": 16,
           "y": 92
         },
         "propConfig": {
@@ -196,7 +151,7 @@
         "position": {
           "height": 32,
           "width": 120,
-          "x": 374,
+          "x": 200,
           "y": 92
         },
         "props": {
@@ -213,10 +168,10 @@
           "name": "Label_36"
         },
         "position": {
-          "height": 32,
-          "width": 120,
-          "x": 494,
-          "y": 92
+          "height": 24,
+          "width": 32,
+          "x": 320,
+          "y": 96
         },
         "propConfig": {
           "props.text": {
@@ -224,7 +179,7 @@
               "config": {
                 "fallbackDelay": 2.5,
                 "mode": "direct",
-                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_1_.value"
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_67_.value"
               },
               "type": "tag"
             }
@@ -233,6 +188,202 @@
         "props": {
           "textStyle": {
             "alignSelf": "flex-start",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_37"
+        },
+        "position": {
+          "height": 24,
+          "width": 4,
+          "x": 368,
+          "y": 96
+        },
+        "props": {
+          "text": "|",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_38"
+        },
+        "position": {
+          "height": 24,
+          "width": 32,
+          "x": 376,
+          "y": 96
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_68_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "flex-start",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_39"
+        },
+        "position": {
+          "height": 24,
+          "width": 4,
+          "x": 424,
+          "y": 96
+        },
+        "props": {
+          "text": "|",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_40"
+        },
+        "position": {
+          "height": 24,
+          "width": 32,
+          "x": 432,
+          "y": 96
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_69_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "flex-start",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_41"
+        },
+        "position": {
+          "height": 24,
+          "width": 32,
+          "x": 489,
+          "y": 96
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_70_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "flex-start",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_42"
+        },
+        "position": {
+          "height": 24,
+          "width": 32,
+          "x": 544,
+          "y": 96
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Joltek_RA_5069PLC002_/Controller:Global/HMI_INT/HMI_INT_71_.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "alignSelf": "flex-start",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_43"
+        },
+        "position": {
+          "height": 24,
+          "width": 4,
+          "x": 480,
+          "y": 96
+        },
+        "props": {
+          "text": "|",
+          "textStyle": {
+            "alignSelf": "center",
+            "fontSize": 16
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_44"
+        },
+        "position": {
+          "height": 24,
+          "width": 4,
+          "x": 537,
+          "y": 96
+        },
+        "props": {
+          "text": "|",
+          "textStyle": {
+            "alignSelf": "center",
             "fontSize": 16
           }
         },
